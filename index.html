@@ -1,12 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>My First GitHub Pages Site</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rosa Lover & Gift Center</title>
+  <style>
+    /* Reset and base styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #ffebee 0%, #ffcdd2 50%, #f8bbd0 100%);
+      color: #333;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .container {
+      text-align: center;
+      background: rgba(255, 255, 255, 0.92);
+      padding: 50px 40px;
+      border-radius: 20px;
+      box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+      max-width: 500px;
+      width: 100%;
+      backdrop-filter: blur(8px);
+      border: 1px solid rgba(255, 182, 193, 0.5);
+    }
+
+    h1 {
+      font-size: 2.8rem;
+      color: #c2185b; /* Deep rose pink */
+      margin-bottom: 20px;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+    }
+
+    p {
+      font-size: 1.3rem;
+      margin-bottom: 35px;
+      color: #555;
+      line-height: 1.6;
+    }
+
+    .social-links {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 20px;
+    }
+
+    .social-icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 70px;
+      height: 70px;
+      background: #fff;
+      border-radius: 50%;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+      transition: all 0.4s ease;
+      text-decoration: none;
+      font-size: 2.2rem;
+      color: #555;
+    }
+
+    .social-icon:hover {
+      transform: translateY(-10px) scale(1.15);
+      box-shadow: 0 15px 35px rgba(0,0,0,0.18);
+    }
+
+    .facebook { color: #1877f2; }
+    .facebook:hover { background: #1877f2; color: white; }
+
+    .tiktok { color: #000; }
+    .tiktok:hover { background: linear-gradient(45deg, #ee1d52, #000); color: white; }
+
+    /* Optional: Add a subtle rose image or placeholder */
+    .hero-img {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 30px;
+      border: 8px solid #fff;
+      box-shadow: 0 10px 30px rgba(200, 24, 91, 0.2);
+    }
+  </style>
 </head>
 <body>
-  <h1>Rosa Lover & Givt Center</h1>
-  <p>This is my website hosted website. ආයුබෝවන්! 😊</p>
-  <img src="https://via.placeholder.com/400x200?text=Your+Photo+Here" alt="placeholder">
+
+  <div class="container">
+    <!-- You can replace this with your real photo/logo later -->
+    <img 
+      class="hero-img" 
+      src="https://images.unsplash.com/photo-1585487000160-6ebcfceb0d26?w=400" 
+      alt="Beautiful pink roses"
+    />
+
+    <h1>Rosa Lover & Gift Center</h1>
+    
+    <p>ආයුබෝවන්! 🌸 Welcome to your favorite place for beautiful roses and thoughtful gifts.<br>Explore our collection and stay connected!</p>
+
+    <div class="social-links">
+      <!-- Replace # with your actual profile links -->
+      <a href="https://www.facebook.com/yourpage" target="_blank" class="social-icon facebook" title="Follow us on Facebook">
+        <span>f</span> <!-- Simple f letter – or use font awesome later -->
+      </a>
+      
+      <a href="https://www.tiktok.com/@yourusername" target="_blank" class="social-icon tiktok" title="Follow us on TikTok">
+        <span>♪</span> <!-- TikTok music note symbol -->
+      </a>
+    </div>
+  </div>
+
 </body>
 </html>
